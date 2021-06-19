@@ -1,0 +1,315 @@
+{
+  "bookmark": {
+    "DEFAULT": {
+      "ids": ["Z-z8C1qZX", "1A4d_Paj7", "Xm5Z2klWu"],
+      "entities": {
+        "Z-z8C1qZX": { "type": "LINK", "icon": "account_balance", "title": "Google", "path": "http://www.google.ca", "id": "Z-z8C1qZX" },
+        "1A4d_Paj7": {
+          "type": "LINK",
+          "icon": "attach_money",
+          "title": "Yahoo Finance",
+          "path": "http://finance.yahoo.com",
+          "id": "1A4d_Paj7"
+        },
+        "Xm5Z2klWu": { "type": "LINK", "icon": "info", "title": "BBC", "path": "http://news.bbc.co.uk", "id": "Xm5Z2klWu" }
+      },
+      "isShowBookmarks": false
+    }
+  },
+  "note": {
+    "4fWG4cyXI": {
+      "ids": ["HsEOgKG-E", "ocK5im5at"],
+      "entities": {
+        "ocK5im5at": { "id": "ocK5im5at", "content": "First Note\n", "created": 1622994343410, "modified": 1622994343410 },
+        "HsEOgKG-E": { "id": "HsEOgKG-E", "content": "Another Note\n", "created": 1622994348518, "modified": 1622994348518 }
+      }
+    }
+  },
+  "globalConfig": {
+    "lang": { "lng": "en" },
+    "misc": {
+      "isDarkMode": true,
+      "isConfirmBeforeExit": false,
+      "isNotifyWhenTimeEstimateExceeded": true,
+      "isAutMarkParentAsDone": false,
+      "isAutoStartNextTask": true,
+      "isTurnOffMarkdown": false,
+      "isAutoAddWorkedOnToToday": true,
+      "isMinimizeToTray": false,
+      "isTrayShowCurrentTask": true,
+      "isDisableInitialDialog": false,
+      "defaultProjectId": null,
+      "firstDayOfWeek": 0,
+      "taskNotesTpl": "**How can I best achieve it now?**\n\n**What do I want?**\n\n**Why do I want it?**\n"
+    },
+    "evaluation": { "isHideEvaluationSheet": false },
+    "idle": {
+      "isOnlyOpenIdleWhenCurrentTask": false,
+      "isEnableIdleTimeTracking": false,
+      "minIdleTime": 300000,
+      "isUnTrackedIdleResetsBreakTimer": true
+    },
+    "takeABreak": {
+      "isTakeABreakEnabled": false,
+      "isLockScreen": false,
+      "isFocusWindow": false,
+      "takeABreakMessage": "Take a break! You have been working for ${duration} without one. Go away from the computer! Take a short walk! Makes you more productive in the long run!",
+      "takeABreakMinWorkingTime": 3600000,
+      "takeABreakSnoozeTime": 900000,
+      "motivationalImg": null
+    },
+    "pomodoro": {
+      "isEnabled": false,
+      "duration": 1500000,
+      "breakDuration": 300000,
+      "longerBreakDuration": 900000,
+      "cyclesBeforeLongerBreak": 4,
+      "isStopTrackingOnBreak": true,
+      "isStopTrackingOnLongBreak": true,
+      "isManualContinue": false,
+      "isPlaySound": true,
+      "isPlaySoundAfterBreak": false,
+      "isPlayTick": false
+    },
+    "keyboard": {
+      "globalShowHide": "Ctrl+Shift+X",
+      "globalToggleTaskStart": null,
+      "globalAddNote": null,
+      "globalAddTask": null,
+      "addNewTask": "Shift+A",
+      "addNewNote": "n",
+      "openProjectNotes": "Shift+N",
+      "toggleSideNav": "Shift+D",
+      "showHelp": "?",
+      "toggleBookmarks": "Shift+V",
+      "toggleBacklog": "b",
+      "goToWorkView": "w",
+      "goToScheduledView": "Shift+S",
+      "goToTimeline": "Shift+T",
+      "goToSettings": null,
+      "zoomIn": "Ctrl++",
+      "zoomOut": "Ctrl+-",
+      "zoomDefault": "Ctrl+0",
+      "taskEditTitle": null,
+      "taskToggleAdditionalInfoOpen": "i",
+      "taskOpenEstimationDialog": "t",
+      "taskSchedule": "s",
+      "taskToggleDone": "d",
+      "taskAddSubTask": "a",
+      "taskDelete": "Backspace",
+      "taskMoveToProject": "e",
+      "taskOpenContextMenu": "q",
+      "selectPreviousTask": "k",
+      "selectNextTask": "j",
+      "moveTaskUp": "Ctrl+Shift+ArrowUp",
+      "moveTaskDown": "Ctrl+Shift+ArrowDown",
+      "moveToBacklog": "Shift+B",
+      "moveToTodaysTasks": "Shift+T",
+      "expandSubTasks": null,
+      "collapseSubTasks": null,
+      "togglePlay": "y",
+      "taskEditTags": "g"
+    },
+    "localBackup": { "isEnabled": true },
+    "sound": { "volume": 75, "isPlayDoneSound": false, "isIncreaseDoneSoundPitch": true, "doneSound": "done2.mp3" },
+    "trackingReminder": { "isEnabled": false, "isShowOnMobile": false, "minTime": 120000 },
+    "timeline": { "isWorkStartEndEnabled": true, "workStart": "9:00", "workEnd": "17:00" },
+    "sync": {},
+    "__modelVersion": 2.2003
+  },
+  "reminders": [],
+  "project": {
+    "ids": ["DEFAULT"],
+    "entities": {
+      "DEFAULT": {
+        "id": "DEFAULT",
+        "title": "Todo",
+        "isArchived": false,
+        "issueIntegrationCfgs": {
+          "JIRA": {
+            "isEnabled": false,
+            "_isBlockAccess": false,
+            "host": null,
+            "userName": null,
+            "password": null,
+            "isWonkyCookieMode": false,
+            "isAutoPollTickets": true,
+            "searchJqlQuery": "",
+            "isAutoAddToBacklog": true,
+            "autoAddBacklogJqlQuery": "assignee = currentUser() AND sprint in openSprints() AND resolution = Unresolved",
+            "isWorklogEnabled": true,
+            "isAutoWorklog": false,
+            "isAddWorklogOnSubTaskDone": true,
+            "isAllowSelfSignedCertificate": false,
+            "isUpdateIssueFromLocal": false,
+            "isShowComponents": true,
+            "isCheckToReAssignTicketOnTaskStart": false,
+            "storyPointFieldId": null,
+            "isTransitionIssuesEnabled": true,
+            "availableTransitions": [],
+            "transitionConfig": { "OPEN": "DO_NOT", "IN_PROGRESS": "ALWAYS_ASK", "DONE": "ALWAYS_ASK" },
+            "userToAssignOnDone": null
+          },
+          "GITHUB": {
+            "repo": null,
+            "token": null,
+            "isSearchIssuesFromGithub": false,
+            "isAutoPoll": false,
+            "isAutoAddToBacklog": false,
+            "filterUsername": null
+          },
+          "GITLAB": {
+            "project": null,
+            "gitlabBaseUrl": null,
+            "token": null,
+            "isSearchIssuesFromGitlab": false,
+            "isAutoPoll": false,
+            "isAutoAddToBacklog": false,
+            "filterUsername": null
+          },
+          "CALDAV": {
+            "caldavUrl": null,
+            "resourceName": null,
+            "username": null,
+            "password": null,
+            "isAutoAddToBacklog": false,
+            "isAutoPoll": false,
+            "isSearchIssuesFromCaldav": false,
+            "isTransitionIssuesEnabled": false,
+            "categoryFilter": null
+          }
+        },
+        "taskIds": [
+          "lIO8uzgxo",
+          "Kxrrf-_n9",
+          "FndOVcUYg",
+          "FRZ5NJyNk",
+          "aPlN5bRaj",
+          "b4wSru_V8",
+          "WyQ_f7wP-",
+          "4RU4WSy9P",
+          "0P2Hezr0r",
+          "Dmmu2YH_X"
+        ],
+        "backlogTaskIds": [],
+        "advancedCfg": {
+          "worklogExportSettings": {
+            "cols": ["DATE", "START", "END", "TIME_CLOCK", "TITLES_INCLUDING_SUB"],
+            "roundWorkTimeTo": null,
+            "roundStartTimeTo": null,
+            "roundEndTimeTo": null,
+            "separateTasksBy": " | ",
+            "groupBy": "DATE"
+          }
+        },
+        "theme": {
+          "isAutoContrast": true,
+          "isDisableBackgroundGradient": false,
+          "primary": "#29a1aa",
+          "huePrimary": "500",
+          "accent": "#ff4081",
+          "hueAccent": "500",
+          "warn": "#e11826",
+          "hueWarn": "500",
+          "backgroundImageDark": null,
+          "backgroundImageLight": null
+        },
+        "workStart": { "2021-06-06": 1622986726182 },
+        "workEnd": { "2021-06-06": 1622986728182 },
+        "breakTime": { "2021-06-06": 300000 },
+        "breakNr": { "2021-06-06": 1 }
+      }
+    },
+    "__modelVersion": 5.2
+  },
+  "tag": {
+    "ids": ["TODAY"],
+    "entities": {
+      "TODAY": {
+        "id": "TODAY",
+        "icon": "wb_sunny",
+        "title": "Today",
+        "color": null,
+        "created": 1622984698968,
+        "modified": 1622984698968,
+        "taskIds": [],
+        "advancedCfg": {
+          "worklogExportSettings": {
+            "cols": ["DATE", "START", "END", "TIME_CLOCK", "TITLES_INCLUDING_SUB"],
+            "roundWorkTimeTo": null,
+            "roundStartTimeTo": null,
+            "roundEndTimeTo": null,
+            "separateTasksBy": " | ",
+            "groupBy": "DATE"
+          }
+        },
+        "theme": {
+          "isAutoContrast": true,
+          "isDisableBackgroundGradient": false,
+          "primary": "#6495ED",
+          "huePrimary": "500",
+          "accent": "#ff4081",
+          "hueAccent": "500",
+          "warn": "#e11826",
+          "hueWarn": "500",
+          "backgroundImageDark": "assets/bg/NIGHT_manuel-will.jpg",
+          "backgroundImageLight": null
+        },
+        "workStart": { "2021-06-06": 1622986727182, "2021-06-09": 1623204968406 },
+        "workEnd": { "2021-06-06": 1622986728182, "2021-06-09": 1623204968406 },
+        "breakTime": {},
+        "breakNr": {}
+      }
+    },
+    "__modelVersion": 1
+  },
+  "simpleCounter": {
+    "ids": ["STANDING_DESK_ID", "COFFEE COUNTER"],
+    "entities": {
+      "STANDING_DESK_ID": {
+        "id": "STANDING_DESK_ID",
+        "title": "Standing Desk Timer",
+        "isEnabled": false,
+        "icon": "airline_seat_recline_normal",
+        "iconOn": "directions_walk",
+        "type": "StopWatch",
+        "triggerOnActions": [],
+        "triggerOffActions": [],
+        "countOnDay": {},
+        "isOn": false
+      },
+      "COFFEE COUNTER": {
+        "id": "COFFEE COUNTER",
+        "title": "Coffee Counter",
+        "isEnabled": false,
+        "icon": "free_breakfast",
+        "type": "ClickCounter",
+        "triggerOnActions": [],
+        "triggerOffActions": [],
+        "countOnDay": {},
+        "isOn": false
+      }
+    }
+  },
+  "metric": { "ids": [], "entities": {}, "__modelVersion": 1 },
+  "improvement": { "ids": [], "entities": {}, "hideDay": null, "hiddenImprovementBannerItems": [], "__modelVersion": 1 },
+  "obstruction": { "ids": [], "entities": {}, "__modelVersion": 1 },
+  "task": {
+    "ids": [],
+    "entities": {},
+    "currentTaskId": null,
+    "selectedTaskId": null,
+    "taskAdditionalInfoTargetPanel": null,
+    "lastCurrentTaskId": null,
+    "isDataLoaded": true,
+    "__modelVersion": 3.3336
+  },
+  "taskArchive": {
+    "ids": [],
+    "entities": {},
+    "__modelVersion": 3.3336
+  },
+  "taskRepeatCfg": { "ids": [], "entities": {}, "__modelVersion": 1 },
+  "lastActiveTime": 1623809456839,
+  "lastLocalSyncModelChange": 1623809456839
+}
